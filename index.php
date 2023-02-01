@@ -1,6 +1,6 @@
 <?php
 session_start();
-include_once("./log.php");
+// include_once("./log.php");
 ?>
 
 <?php
@@ -18,7 +18,7 @@ include_once("./src/head.inc.php");
             <form action="" method="post">
                 <ul>
                     <li><label for="username">Adresse mail :</label></li>
-                    <li><input type="text" id="username" name="username"></li>
+                    <li><input type="text" id="username" name="login"></li>
                     <li><label for="password">Mot de passe :</label></li>
                     <li><input type="password" id="password" name="password"></li>
                     <li><input type="submit" value="Envoyer"></li>
