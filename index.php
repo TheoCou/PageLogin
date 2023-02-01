@@ -1,15 +1,11 @@
-<!DOCTYPE html>
-<html lang="fr">
+<?php
+session_start();
+include_once("./log.php");
+?>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./asset/Login_37128.png">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
-    <title>Abonnement</title>
-    <link rel="stylesheet" href="./css/main.css">
-</head>
+<?php
+include_once("./src/head.inc.php");
+?>
 
 <header>
     <h1>Fidelio &amp; compagny</h1>
@@ -27,19 +23,14 @@
                     <li><input type="password" id="password" name="password"></li>
                     <li><input type="submit" value="Envoyer"></li>
                 </ul>
-
             </form>
         </section>
 
         <?php
-        //inclusion
         include_once "./src/inscription_user.inc.php";
         ?>
-        
+
     </main>
-
-
-
 </body>
 
 </html>
