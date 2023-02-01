@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    margin: 0;
+    background-color: #f2ee6f83;
+}
+
+header {
+    background-color: #F4E04D;
+    text-align: center;
+    font-family: 'Paytone One', sans-serif;
+    font-size: 2.5rem;
+    padding: 5rem;
+    margin-bottom: 10rem;
+}
+
+.container {
+    font-family: 'Montserrat Alternates', sans-serif;
+    text-align: center;
+}
+
+#password {
+    margin-left: 1rem;
+}
+
+#username {
+    margin-left: 1rem;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 1rem;
+    font-size: larger;
+}
+
+input[type="submit"] {
+    background-color: #8db1ab;
+    border-radius: 0.7rem;
+    padding: 1rem 2rem 1rem 2rem;
+    border: none;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
