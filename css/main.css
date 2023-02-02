@@ -48,3 +48,9 @@ input[type="submit"] {
 .material-symbols-outlined {
     vertical-align: middle;
 }
+
+.success{
+    text-align: center;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: larger;
+}
